@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+section[id="Skills"] {
+  border: 3px solid black;
+}
+#Home {
+  border: 3px solid black;
+}
+#nav_container {
+  display: flex;
+  width: 100%;
+  background-color: #4c5760;
+}
+
+div[id="div_profile"] {
+  padding-bottom: 55px;
+  background-color: #4c5760;
+  color: #ffffff;
+}
+section[id="Experience"] {
+  border: 3px solid black;
+}
+
+#nav_links {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+}
+.nav_links {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: x-large;
+  color: #ffffff;
+}
+#div_profile {
+  width: 100%;
+  display: flex;
+}
+#profile_para {
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+}
+
+div [id="profile_para"] b {
+  font-size: larger;
+}
+
+div[id="div_profile"] img {
+  border: 1px solid black;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+#div_skills {
+  display: flex;
+  flex-direction: column;
+  background-color: #8a95a5;
+}
+
+#skills_img {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  margin: 200px 0px;
+}
+
+#exp_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #c0babc;
+}
+
+.div_exp {
+  display: flex;
+  width: 100%;
+}
+.div_exp_img {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.exp_title {
+  width: 50%;
+  display: flex;
+}
+
+.exp_title h2 {
+  padding: 5px;
+  border-radius: 2%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(174, 179, 179);
+}
+div[class="div_exp_img"] p {
+  padding: 10px;
+}
+#footer_container {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  background-color: rgb(72, 70, 70);
+  color: white;
+}
+
+#projects_container {
+  display: flex;
+  padding-bottom: 100px;
+  background-color: #fffff7;
+}
+section[id="projects"] h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+section[id="projects"] {
+  background-color: #fffff7;
+}
+
+section[id="projects"] {
+  border: 3px solid black;
+}
+div[class="card-body"] {
+  height: 200px;
+  overflow: scroll;
+  background-color: #87949c;
+}
+.card {
+  box-shadow: 10px 10px 10px black;
+}
